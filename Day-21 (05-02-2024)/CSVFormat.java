@@ -17,50 +17,57 @@ public class CSVFormat {
 	StringBuffer buf;
 	
 	public CSVFormat() {
+		boolean more = true;
 		try {
 			r = new BufferedReader(new InputStreamReader(System.in));
-			w = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("employ.csv")));
+			w = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("employ.csv",true)));
 
-			buf = new StringBuffer();
-			for(int i=0; i<24; i++) System.out.println();
+			while(more) {
+				buf = new StringBuffer();
+				for(int i=0; i<24; i++) System.out.println();
+	
+				System.out.println("EMPLOY INFORMATION SYSTEM");
+				System.out.println("-------------------------");
+				
+				System.out.println();
+				System.out.print("Employ ID:   ");
+				id = r.readLine();
+				
+				System.out.print("Employ Name: ");
+				name = r.readLine();
+	
+				System.out.print("Gender:      ");
+				gender = r.readLine();
+	
+				System.out.print("Email ID:    ");
+				email = r.readLine();
+	
+				System.out.print("Mobile No.:  ");
+				mobile = r.readLine();
+	
+				System.out.println();
+	
+				buf.append(id);
+				buf.append(",\"");
+				buf.append(name);
+				buf.append("\",\"");
+				buf.append(gender);
+				buf.append("\",\"");
+				buf.append(email);
+				buf.append("\",\"");
+				buf.append(mobile);
+				buf.append("\"\r\n");
+				
+				w.write(buf.toString());
 
-			System.out.println("EMPLOY INFORMATION SYSTEM");
-			System.out.println("-------------------------");
-			
-			System.out.println();
-			System.out.print("Employ ID:   ");
-			id = r.readLine();
-			
-			System.out.print("Employ Name: ");
-			name = r.readLine();
-
-			System.out.print("Gender:      ");
-			gender = r.readLine();
-
-			System.out.print("Email ID:    ");
-			email = r.readLine();
-
-			System.out.print("Mobile No.:  ");
-			mobile = r.readLine();
-
-			System.out.println();
-
-			buf.append(id);
-			buf.append(",\"");
-			buf.append(name);
-			buf.append("\",\"");
-			buf.append(gender);
-			buf.append("\",\"");
-			buf.append(email);
-			buf.append("\",\"");
-			buf.append(mobile);
-			buf.append("\"\r\n");
-			
-			w.write(buf.toString());
+				System.out.print("More [y/n]:  ");
+				more= r.readLine().toUpperCase().startsWith("Y");
+			}
 			w.close();
-			
+			r.close();
 		} catch(FileNotFoundException e) {
 		} catch(IOException e) {
+		} catch(Exception e) {
 		}
 	}
 	
