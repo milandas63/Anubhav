@@ -38,14 +38,14 @@ INSERT INTO action VALUES
 SELECT 'User';
 DROP TABLE IF EXISTS user;
 CREATE TABLE IF NOT EXISTS user(
-	user_id			INT(6)			NOT NULL AUTO_INCREMENT,
-	user_name       VARCHAR(30)		NOT NULL UNIQUE,
-	PRIMARY KEY(user_id)
+    user_id         INT(6)          NOT NULL AUTO_INCREMENT,
+    user_name       VARCHAR(30)     NOT NULL UNIQUE,
+    PRIMARY KEY(user_id)
 );
 INSERT INTO user VALUES
-	(1, "Milan Das"),
-	(2, "Anubhav Sengupta"),
-	(1, "Kishore Kumar");
+    (1, "Milan Das"),
+    (2, "Anubhav Sengupta"),
+    (1, "Kishore Kumar");
 
 
 ###################
@@ -54,19 +54,19 @@ INSERT INTO user VALUES
 SELECT 'Privilege';
 DROP TABLE IF EXISTS privilege;
 CREATE TABLE IF NOT EXISTS privilege(
-	priv_id         INT(6)			NOT NULL AUTO_INCREMENT,
-	user_id         INT(6)          NOT NULL REFERENCES user(user_id),
-	act_id          INT(6)          NOT NULL REFERENCES action(act_id),
-	PRIMARY KEY(priv_id)
+    priv_id         INT(6)          NOT NULL AUTO_INCREMENT,
+    user_id         INT(6)          NOT NULL REFERENCES user(user_id),
+    act_id          INT(6)          NOT NULL REFERENCES action(act_id),
+    PRIMARY KEY(priv_id)
 );
 INSERT INTO privilege VALUES
-	( 1, 1, 1),		# 1-Milan-View
-	( 2, 1, 2),     # 2-Milan-Add
-	( 3, 2, 1),		# 1-Anubhav-View
-	( 4, 2, 2),     # 2-Anubhav-Add
-	( 5, 2, 3),		# 3-Anubhav-Edit
-	( 6, 2, 4),     # 4-Anubhav-Delete
-	( 1, 2, 5);		# 5-Anubhav-Report
+    ( 1, 1, 1),     # 1-Milan-View
+    ( 2, 1, 2),     # 2-Milan-Add
+    ( 3, 2, 1),     # 1-Anubhav-View
+    ( 4, 2, 2),     # 2-Anubhav-Add
+    ( 5, 2, 3),     # 3-Anubhav-Edit
+    ( 6, 2, 4),     # 4-Anubhav-Delete
+    ( 1, 2, 5);     # 5-Anubhav-Report
 
 
 #################           This table is used to keep the company name, GST No.,
@@ -555,7 +555,7 @@ CREATE UNIQUE INDEX closingStock ON closingStock(prod_id, batch_no, mrp_rate);
 |   1. Date:     ##-##-####                                                                     |
 |   2. ID
     3. NAME
-	4. SALE-AREA
+    4. SALE-AREA
 
 
 
