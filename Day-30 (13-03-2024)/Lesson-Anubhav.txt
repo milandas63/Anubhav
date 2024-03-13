@@ -1,0 +1,1018 @@
+Prateekshya Patnaik 9861298754  (prateekshya0603@gmail.com)         prateekshyapat
+Anubhav Sengupta    7008781007  (anubhavsengupta2005@gmail.com      asg-7
+
+https://github.com/milandas63/Prateekshya
+
+1. Create a github id from https://github.com/
+2. What all computer languages do you know?
+    a) C
+    b) C++
+
+3. The objective is to make you ready in Php-Laravel
+4. Course Plan:
+    a) HTML5
+    b) CSS3
+    c) JavaScript
+    d) Java (introductory)
+    e) SQL
+    f) PHP-Laravel
+
++------------------------+
+|   Monday, 11-12-2023   |
++------------------------+
+    =   What is a programming language?
+        A language that can communicate with a computer machine, for example
+        C, C++, Java, Python, etc.
+
+        Programs are written in form of notations that can be read by human
+        users. The machine does'nt understand these notation languages. The machine
+        understands machine language only. The machine language is written using
+        bits, i.e. 0 and 1. The computer languages in form of human readable form
+        must be converted into machine language inorder to be executed by the machine.
+
+        This conversion takes place by a specific tool for the respective language called
+        the compiler. Some computer languages does'nt compile the human readable notation
+        permanently once for all to the machine language.
+
+    C, C++ language (Platform dependent)
+        +--------------+          +-------------+         +-------------+
+        |  C++ language|          |             |         |  Machine    |
+        |  Programmes  |----------|  Compiler   |---------|  Language   |
+        |  .cpp file   |          |             |         |  .exe file  |
+        +--------------+          +-------------+         +-------------+
+         Source files                                      executable files
+
+    Java language (Platform independent)
+        +--------------+          +-------------+         +---------------+
+        |  Java        |          |             |         |  Byte code    |
+        |  Programmes  |----------|  Compiler   |---------|  Language     |----+
+        |  .java       |          |             |         |  .class file  |    |
+        +--------------+          +-------------+         +---------------+    |
+          Source files                                                         |
+                                                        +-----------------+    |
+                                                        |  JRE - Java     |    |
+                                                        |  Runtime Env    |----+
+                                                        |  (On-the-fly)   |
+                                                        |  (Just-in-time) |
+                                                        +-----------------+
+
+    ASSIGNMENT:
+    1.  Write short notes on the following:
+        a)  Source file
+        b)  Executable file
+        c)  Platform independent
+        d)  JIT compiler
+    2.  Create a github id from https://github.com/
+
+
++-------------------------+
+|   Tuesday, 12-12-2023   |
++-------------------------+
+    =   Syntax of for loop
+            The for loop has 2 parts: signature and block: for... {}
+            When only one line is required to loop, the block may not be used,
+            only the statement/line is provided
+
+            All parameters are optional:
+            for(;;) System.out.println("Hello");
+
+            for([initializer]; [condition-checking]; [incrementor]) [{}]
+ 
+            To control the loop behaviour, parameter to the loop are provided
+            >   initializer
+                This deals with numbers. A variable is initialized with some numeric
+                values. When a variable is defined, it is required to also define
+                the variable type.
+
+                    int x = 10, y = 0, z = 5;
+
+                    for(int i=0,j=10;;) {}
+
+            >   condition-checking
+                This checks and controls the number of iteration to take place.
+
+                    for(int i=0; i<10; ) {}
+
+            >   incrementor
+
+                The 3rd parameter increments/decrements the values in the varables
+                defined in the initializer.
+
+    =   The number of operators vary in case of computer programming languages:
+        In Java programming language:
+            +, -, *, /, %, ++, --, 
+
+            for(int i=0; i<10; i++) {}
+
+    =   Precedence of operators
+
+    =   Features of a computer language are:
+        1)  It is executed in sequence of line numbers
+        2)  It can loop across one line or a set of lines again and again
+        3)  Condition checking
+        4)  Computation of equations
+        5)  Branching
+        6)  Jumping
+
+    =   There are 3 types of computer languages:
+        1)  Passive language
+            A computer language that does'nt follow the features of a computer language.
+            It is used for presentation purpose only. Good looking output is presentation.
+            HTML - HyperText Markup Language
+            SGML - Standard Generalized Markup Language
+        2)  Active language
+            An active language is the most common computer programming language.
+            It is used for solving critical problems.
+            It resides in the local machine or LAN where it is executed.
+        3)  Dynamic language
+            Programs written in dynamic languages reside in the server machine. When
+            requested to execute across the network, it executes using the server
+            machine resources and returns the output in form of passive language.
+
+    =   HTML stands for Hyter Text Markup Language
+        >   HTML is NOT a case sensitive language.
+        >   HTML is a tag based language
+        >   Tag is a reserve word that is embedded with angle brackets <>.
+        >   There are approximately 100+ reserve words.
+        >   Tags are officially known as ELEMENTS.
+            <html>, <head>, <body>, <input>, <img>, <table>, .....
+        >   Every element may have a set of ATTRIBUTES.
+            <html version=''>, 
+            <head profile=''>,
+            <body background='' bgcolor='' text=''>
+        >   There are 2 types of ELEMENTS:
+            a)  Terminator required element
+                <html>...</html>
+                <body>...</body>
+                <table>...</table>
+            b)  Self-terminated element
+                <area>
+                <img>
+                <br>
+                <hr>
+        >   Attributes are of 3 types:
+            a)  Standard attribute
+                That is specifically created for an ELEMENT
+            b)  Common attribute
+                Those attributes which are applicable to all ELEMENTS
+                id, class, style, title, lang,  dir, ...
+            c)  Event attribute
+                onclick, ondblclick, onmousedown, onmouseup, onmouseover, onmousemove,
+                onmouseout, onkeypress, onkeydown, onkeyup
+        >   The principal element in HTML is <html>...</html>. This element wraps all
+            other elements within it.
+                <html>
+                    <head>
+                        <title>Prateekshya</title>
+                    </head>
+                    <body>
+                        <h1>Hello World</h1>
+                    </body>
+                </html>
+        >   HTML is created to run within an internet browser. An internet browser has
+            two parts:
+                a)  header
+                b)  body
+        >   The best editor for writting HTML programs is VS-Code.
+
+    =   ASSIGNMENT
+        Write an HTML script to display your resume with photograph? Photograph
+        may be displayed using the <img src=''> element.
+
++---------------------------+
+|   Wednesday, 13-12-2023   |
++---------------------------+
+    =   Hyper link
+        A text or an image is made hyperlink. When you click, you can navigate to 
+        another new page or another part of the same page.
+        Hyperlinks are created with the help of <a>...</a> element.
+
+    =   Table - Tabular presentation
+        Table element allows to create rows and columns.
+        The table element contains a set of sub-elements:
+            <table border='' width='' frame=''>
+                <caption>...</caption>
+                <thead>
+                    <tr>
+                        <th>...</th>
+                        <th>...</th>
+                        <th>...</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </tfoot>
+            </table>
+    =   Merging cells
+        Two or more rows may be merged. Similarly, two or more columns may also be merged.
+        +----+--------------+----------+-------------------------------------------------+
+        |    |              |          |                  POPULATION           |         |
+        |    |              |          |-------------------+-------------------+         |
+        |    |              |          |       URBAN       |      RURAL        |         |
+        |    |              |          |---------+---------+---------+---------+         |
+        |    |              |          |   GOVT  |   PVT   |   GOVT  |   PVT   |         |
+        |    |              |          |----+----+----+----+----+----+----+----+         |
+        | SL | DISTRICT     | STATE    |  M |  F |  M |  F |  M |  F |  M |  F |  TOTAL  |
+        +----+--------------+----------+----+----+----+----+----+----+----+----+---------+
+          1   BALASORE       ODISHA      245  211  245  211  245  211  245  211      1001
+          2   CUTTACK        ODISHA      245  211  245  211  245  211  245  211      1001
+
++-------------------------+
+|  Thursday, 14-12-2023   |
++-------------------------+
+    =   Hyper link with images
+    =   Image Mapping
+    =   ASSIGNMENT:
+        Provide links to different shapes in the image figures.jpg?
+
++-----------------------+
+|  Monday, 18-12-2023   |
++-----------------------+
++------------------------+
+|  Tuesday, 19-12-2023   |
++------------------------+
++--------------------------+
+|  Wednesday, 20-12-2023   |
++--------------------------+
+    =   There are 2 types of OOPs Languages:
+        >   Object Oriented Programming language
+            One can create new classes.
+        >   Object Based Programming language
+            Whatever classes are provided by the vendor, only that classes are used.
+            JavaScript is an Object Based Programming language.
+            JavaScript provides the following objects of the classes:
+                CLASS-NAME          OBJECT-NAME
+            1.  Document            document
+            2.  Anchor Represents an <a> element
+            3.  Area Represents an <area> element inside an image-map
+            4.  Base Represents a <base> element
+Body Represents the <body> element
+Button Represents a <button> element
+Event Represents the state of an event
+Form Represents a <form> element
+Frame Represents a <frame> element
+Frameset Represents a <frameset> element
+Iframe Represents an <iframe> element
+Image Represents an <img> element
+Input button Represents a button in an HTML form
+Input checkbox Represents a checkbox in an HTML formMilan Das, SARC
+Input file Represents a fileupload in an HTML form
+Input hidden Represents a hidden field in an HTML form
+Input password Represents a password field in an HTML form
+Input radio Represents a radio button in an HTML form
+Input reset Represents a reset button in an HTML form
+Input submit Represents a submit button in an HTML form
+Input text Represents a text-input field in an HTML form
+Link Represents a <link> element
+Meta Represents a <meta> element
+Option Represents an <option> element
+Select Represents a selection list in an HTML form
+Style Represents an individual style statement
+Table Represents a <table> element
+TableData Represents a <td> element
+TableRow Represents a <tr> element
+Textarea Represents a <textarea> element
+
+    =   What is DOM?
+        DOM stands for Document Object Model.
+        When a web page is loaded, the browser creates a Document Object Model of the page.
+
+        <html>
+            <head>
+                <title>DOM</title>
+            </head>
+            <body>
+                <label>Username: </label><br>
+                <input type='text' />
+            </body>
+        </html>
+
+        THE DOM OF THE ABOVE HTML SCRIPT:
+
+                            html
+                +-------------+-------------------+
+              head                              body
+        +------+-------+
+        |              |
+      title       title-text
+
+        Refer to the link: https://www.w3schools.com/js/js_htmldom.asp
+
++-------------------------+
+|  Thursday, 04-01-2024   |
++-------------------------+
++-----------------------+
+|  Friday, 05-01-2024   |
++-----------------------+
+    This is a line of text
+    T = 3
+    H = 1
+    I = 3
++-----------------------+
+|  Monday, 08-01-2024   |
++-----------------------+
+    =   Table element
+        >   Table related elements
+            =   <table>...</table>
+            =   <caption>...</caption>  -   optional
+            =   <thead>...</thead>      -   optional
+            =   <tbody>...</tbody>      -   optional
+            =   <tfoot>...</tfoot>      -   optional
+            =   <tr>...</tr>
+            =   <th>...</th>
+            =   <td>...</td>
+
+            Example:
+            <table>
+                <caption>List of Graduates</caption>
+                <thead>
+                    <tr>
+                        <th>SLNO</th>
+                        <th>CANDIDATE'S NAME</th>
+                        <th>FATHER'S NAME</th>
+                        <th>EMAIL-ID</th>
+                        <th>MOBILE-NO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Milan Das</td>
+                        <td>Das</td>
+                        <td>milandas63@gmail.com</td>
+                        <td>7978168568</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Prateekshya Patnaik</td>
+                        <td>Patnaik</td>
+                        <td>somename@gmail.com</td>
+                        <td>5858847774</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Anuvab Sengupta</td>
+                        <td>Sengupta</td>
+                        <td>asengupta@gmail.com</td>
+                        <td>7654334955</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Manashi Maharana</td>
+                        <td>Maharana</td>
+                        <td>mmaharana@gmail.com</td>
+                        <td>78695040</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>no</td
+                        <td>name</td
+                        <td>father</td
+                        <td>email</td
+                        <td>phone</td
+                    </tr>
+                </tfoot>
+            </table>
+        
+        >   Reverse rows and columns of an table
+        >   Insert, Edit and Delete the rows in a column
+
++------------------------+
+|  Tuesday, 09-01-2024   |
++------------------------+
+    =   CSS stands for Cascading Style Sheet
+        CSS provides styling facilities.
+        CSS is a combination of property-name:property-value
+        There may be several CSS name:value pair in one CSS declaration
+        There are 3 types of CSS declaration:
+        a)  Inline CSS
+            When the CSS is provided in the element's STYLE attribute
+            <h1 style="background:lightGray;color:red;text-align:center;font-family:arial;">Hello World!</h1>
+        b)  Internal CSS
+        c)  External CSS
+
+    =   In every HTML element, the common attribute "STYLE" is applicable. The style
+        attribute is used to define the css styling.
+
+    =   <h1 style="background:lightGray;color:red;">Hello World!</h1>
+
++--------------------------+
+|  Wednesday, 10-01-2024   |
++--------------------------+
+    =   What is Java?
+        >   Java is a general purpose computer programming language
+        >   Java is an interpreted language
+        >   Java is an Object Oriented Language. Programs are written within a class.
+        >   A class contains 3 members:
+            #   Field member which is also known variables
+            #   Constructor member
+            #   Method member which is also known as functions
+
+    C, C++ language (Platform dependent)
+        +--------------+          +-------------+         +-------------+
+        |  C++ language|          |             |         |  Machine    |
+        |  Programmes  |----------|  Compiler   |---------|  Language   |
+        |  .cpp file   |          |             |         |  .exe file  |
+        +--------------+          +-------------+         +-------------+
+         Source files                                      executable files
+
+    Java language (Platform independent)
+        +--------------+          +-------------+         +---------------+
+        |  Java        |          |             |         |  Byte code    |
+        |  Programmes  |----------|  Compiler   |---------|  Language     |----+
+        |  .java       |          |             |         |  .class file  |    |
+        +--------------+          +-------------+         +---------------+    |
+          Source files                                                         |
+                                                        +-----------------+    |
+                                                        |  JRE - Java     |    |
+                                                        |  Runtime Env    |----+
+                                                        |  (On-the-fly)   |
+                                                        |  (Just-in-time) |
+                                                        +-----------------+
+
+   =   Thera are 50 keywords/reserve words and 3 figurative constants. Total there are
+        53 keywords.
+
+        >   LIST OF RESERVE WORDS/KEY WORDS IN JAVA (53 words)
+            abstract    continue    for         new         switch
+            assert***   default     goto*       package     synchronized
+            boolean     do          if          private     this
+            break       double      implements  protected   throw
+            byte        else        import      public      throws
+            case        enum****    instanceof  return      transient
+            catch       extends     int         short       try
+            char        final       interface   static      void
+            class       finally     long        strictfp**  volatile
+            const*      float       native      super       while
+            null        true        false
+
+            *       not used
+            **      added in 1.2
+            ***     added in 1.4
+            ****    added in 5.0
+
+
+    =   class Example {
+            public static void main(String[] args) {
+                System.out.println("Hello World!");
+            }
+        }
+
++-------------------------+
+|  Thursday, 11-01-2024   |
++-------------------------+
+    =   Complete Structure of a class:
+        >   To describe the class syntax, the following character will be used:
+            #   {}  When options of different entry
+            #   []  Completely optional - may not be used
+            #   <>  User defined identifiers
+
+        >   Class structure
+            [access-modifier] [modifier] class <className> [extends <parentClass>] [implements <interfaceList...>] {}
+
+            [access-modifier]
+            [modifier]
+            class <className>
+            [extends <parentClass>]
+            [implements <interfaceList...>]
+            {}
+
+        >   access-specifier:
+            An access-specifier contemplates the access to the class:
+            There are 4 different accesses:
+            1)  public
+                The access is allowed by the two ways, i.e. object reference and
+                inheritance across the same package and across other packages.
+
+            2)  protected
+                The access is allowed by the two ways, i.e. object reference and
+                inheritance across the same package. When it is across other packages,
+                only object reference is allowed, inheritance is restricted. A protected
+                class can't be a top level class.
+
+            3)  private
+                A class that is not accessible.
+
+            4)  <undefined>
+                The access is allowed by the two ways, i.e. object reference and
+                inheritance across the same package. When it is across other packages,
+                only inheritance is allowed, object reference is restricted.
+
+        >   A class may be used by two ways:
+            a)  By inheritance
+                -   One class inherits another class. The class that inherits is the child
+                    class and the class that is inherited is the parent class.
+                -   Once the child class inherits the parent class, all the members of the
+                    may be used in the child class as if they are exist with the child class.
+
+                -   public class Sun {
+                        public double distance() {
+                            return 3453234445.45;
+                        }
+                    }
+                
+                    public class Earth extends Sun {
+                        public void say() {
+                            System.out.println("Sun's distance from Earth is " + distance());
+                        }
+                    }
+
+            b)  By object reference
+                -   public class Earth {
+                        public void say() {
+                            Sun sun = new Sun();
+                            System.out.println("Distance is " + sun.distance() );
+                        }
+                    }
+
+        >   Hierarchy of Java classes:
+            +- Package-01
+            |  +- Class-01
+            |  +- Class-02
+            |  +- Class-03
+            |  +- Class-04
+            +- Package-02
+            |  +- Class-201
+            |  +- Class-202
+            |  +- Class-203
+            |  +- Class-204
+            +- Package-03
+            |  +- Class-301
+            |  +- Class-302
+            |  +- Class-303
+            |  +- Class-304
+            +- Package-04
+               +- Class-401
+               +- Class-402
+               +- Class-403
+               +- Class-404
+
+    =   Sample class defination:
+        1)  class SomeName {}
+        2)  class SomeName extends AnotherName {}
+        3)  public class SomeName extends AnotherName {}
+        4)  public abstract class SomeName extends AnotherName {}
+
+    =   What are modifiers?
+        [access-modifiers] are also modifiers. In other OOPs languages they are known
+        as access-specifiers.
+        Special modifiers are used to make the class different.
+        1)  final
+        2)  static
+        3)  abstract
+        4)  native
+        5)  synchronized
+        5)  transient
+        6)  volatile
+        7)  strictfp
+
+    =   A java array is defined in the following way:
+        1)  An array of integers
+            int[] nos = new int[10];
+            int nos[] = new int[10] {65,66,67,68,69,70,71,72,73,74};
+
+    =   Rules for creating an user defined identifier:
+        1)  The name must start with an alphabetic character or a $ or a _
+        2)  The length of the name is unlimited
+        3)  Only alphabetic [A-Z, a-z], digit [0-9] and special character such as [$, _]
+    
+    =   Convention for creating an identifier:
+        1)  A package name may have different sections separated by dot (.)
+        2)  All characters used in a package name may be lower case alphabetic character
+        3)  A class name may start with an Uppercase alphabetic character
+        4)  A field/variable name may start with lowercase alphabetic character
+        5)  A method name may start with lowercase alphabetic character
+
+    =   Using Java one can create 3 types of program:
+        1)  Application
+        2)  Applet
+        3)  Servlet
+
++-----------------------+
+|  Friday, 12-01-2024   |
++-----------------------+
+
++------------------------+
+|  Tuesday, 16-01-2024   |
++------------------------+
+
++--------------------------+
+|  Wednesday, 17-01-2024   |
++--------------------------+
+
++-------------------------+
+|  Thursday, 18-01-2024   |
++-------------------------+
+    =   EXCEPTION HANDLING
+    =   What is exception handling?
+        >   Exception handling is a fault resistance technique. Java follows a robust
+            fault exception handling. For exception handling, java keyword "try" is used.
+            The try statement has another two clauses, the "catch" clause and the "finally"
+            clause.
+
+            The structure of the try statement is as follows:
+                try {} catch(exception1) {} catch(exception2) {} catch(exception3) {} finally {}
+
+                try {
+                    ..................
+                    .................
+                    ...............
+                    .............
+                    ...........
+                } catch(Exception1 e) {
+                    ...............
+                } catch(Exception2 e) {
+                    ................
+                } catch(Exception3 e) {
+
+                } catch(Exception4 e) {
+
+                } finally {
+
+                }
+
+            The program is written with the try block. When an exception occurs within
+            the try block, the line which has fault, generates an exception object and
+            the rest of the program lines are ignored.
+
+            The object generated then matches with the exception type of the catch clauses.
+            That catch clause which matches with the data-type of the object stores the
+            object in the declared variable. The corresponding block of the matching catch
+            clause is then executed.
+
+            In case the finally clause is used, the block corresponding to the finally
+            clause must be executed in either case, if an exception occures from the
+            try block or no exception occurs from 
+
+    =   What is an exception?
+        >   An exception is a class. A special class that inherits the java.lang.Throwable
+            is treated as an exception class.
+
+                Object
+                +- Throwable
+                |  +- Exception (Programmers)
+                |  |  +- RuntimeException
+                |  |  |  +- IndexOutOfBoundsException
+                |  |  |  |  +- ArrayIndexOutOfBoundsException
+                |  +- Error (JVM)
+
+            Object
+            +- Throwable
+            |  +- Error (JVM)
+            |  |  +- AnnotationFormatError
+            |  |  +- AssertionError
+            |  |  +- AWTError
+            |  |  +- CoderMalfunctionError
+            |  |  +- FactoryConfigurationError
+            |  |  +- FactoryConfigurationError
+            |  |  +- IOError
+            |  |  +- LinkageError
+            |  |  |  +- BootstrapMethodError
+            |  |  |  +- ClassCircularityError
+            |  |  |  +- ClassFormatError
+            |  |  |  +- ExceptionInInitializerError
+            |  |  |  +- IncompatibleClassChangeError
+            |  |  |  +- NoClassDefFoundError
+            |  |  |  +- UnsatisfiedLinkError
+            |  |  |  +- VerifyError
+            |  |  +- SchemaFactoryConfigurationError
+            |  |  +- ServiceConfigurationError
+            |  |  +- ThreadDeath
+            |  |  +- TransformerFactoryConfigurationError
+            |  |  +-  VirtualMachineError
+            |  +- Exception (Users)
+            |  |  +- RuntimeException
+
++-----------------------+
+|  Friday, 19-01-2024   |
++-----------------------+
+    =   There are two types of exception in Java:
+        1)  Unchecked exception
+            The compiler doesn't check for the posibility of the exception being
+            generated from the corresponding try block, but is written in the catch
+            clause.
+
+            Any exception class that inherits Throwable through RuntimeException
+            is treated as unchecked exception.
+        2)  Checked exception
+            The compiler check for the posibility of an exception being generated
+            from the try block that is written in the catch clauses.
+
+    =   User defined exceptions:
+        Any user created class that is not found in the list pre-defined API classes
+        is an user defined exception.
+
+    =   Case study:
+            A certain country want to print voter-id card for its citizens. The law
+            allows people to cast voter between 18 years and 90 years. Those who are
+            not 18 years and above 90 years are debarred from voting right.
+
+            int[] ages = {19, 16, 27, 56, 49, 91, 35, 11, 0, 15, 33, -45, 97, 35};
+
+            Object
+            +- Throwable
+            |  +- Exception
+            |  |  +- AgeException
+            |  |  |  +- AgeCeilingException
+            |  |  |  |  +- TooYoungAgeException
+            |  |  |  |  +- TooOldAgeException
+            |  |  |  +- InvalidAgeException
+            |  |  |  |  +- ZeroAgeException
+            |  |  |  |  +- NegativeAgeException
+
++-----------------------+
+|  Monday, 22-01-2024   |
++-----------------------+
+
++------------------------+
+|  Tuesday, 23-01-2024   |
++------------------------+
+    =   Java I/O stands for Java input/output. All read/write operation in Java are done
+        using Java IO or java.io package.
+        >   There are two types of Input/Output
+        >   The first one is Byte stream that uses 8 bit byte for read/write operation
+        >   The second one is Character stream that uses 16 bit byte for R/W operation
+        >   The API (Application Program Interface)
+            java.io
+            +- InputStream (abstract)
+            |  +- AudioInputStream
+            |  +- ByteArrayInputStream
+            |  +- FileInputStream
+            |  +- FilterInputStream
+            |  +- ObjectInputStream
+            |  +- PipedInputStream
+            |  +- SequenceInputStream
+            |  +- StringBufferInputStream
+            +- OutputStream (abstract)
+            |  +- ByteArrayOutputStream
+            |  +- FileOutputStream
+            |  +- FilterOutputStream
+            |  +- ObjectOutputStream
+            |  +- PipedOutputStream
+
+
++-----------------------+
+|  Monday, 29-01-2024   |
++-----------------------+
+    =   ASSIGNMENT-1:
+        Write a program to search and delete a file from the hard disk.
+
+    =   Completed:
+        1)  Byte Stream to read and write from one file to another (CopyFile.java)
+        2)  File class to explore files and folders from a disk (FileTree.java)
+
++-----------------------+
+|  Monday, 05-02-2024   |
++-----------------------+
+    =   Character Stream
+        java.io package provides 2 types of streams:
+        1)  Byte stream for R/W 8 bit byte files
+            As told earlier dated: 23-01-2024
+        2)  Character stream for R/W 16 bit byte files
+            Reader (abstract)
+            +- BufferedReader
+            +- CharArrayReader
+            +- FilterReader
+            +- InputStreamReader
+            +- PipedReader
+            +- StringReader
+            Writer (abstract)
+            +- BufferedWriter
+            +- CharArrayWriter
+            +- FilterWriter
+            +- OutputStreamWriter
+            +- PipedWriter
+            +- PrintWriter
+            +- StringWriter
+
+    =   System.in is a static InputStream variable defined in the System class.
+        Because it is static, it can be called by class name reference. This object
+        is a keyboard object or the standard input device.
+
+            Reader r = new InputStreamReader(System.in);
+
+    =   Data files are stored on the disk in different formats:
+        1)  CSV - Comma Separated Values
+            1, "Narendra Modi", "Male", "1952-11-25", "modi@gmail.com"
+            2, "Milan Das", "Male", "1963-11-25", "milandas63@gmail.com"
+
+        2)  SDF - System Data Format
+            0001Narendra Modi       Male  1952-11-25modi@gmail.com         
+            0002Milan Das           Male  1963-11-25milandas63@gmail.com   
+
+        3)  RDBMS - Relational DataBase Management System
+
+    =   Write a program to create a datafile in CSV format?
+
+
++------------------------+
+|  Tuesday, 06-02-2024   |
++------------------------+
+    =   Write a program to take the above data from the keyboard and save in SDF format?
+        >   Check the  program SDFFormat.java
+
+    =   The RDBMS (Relational DataBase Management System) engine is communicated using
+        a specific language that is called, SQL. SQL stands for Structured Query Language.
+
+    =   There are a number of objects that remain under the RDBMS engine. The most popular
+        is the table object. To create a table use the following command:
+
+        (1) View the names of the db already exists
+            SHOW DATABASES;
+
+        (2) Create a database:
+            CREATE DATABASE IF NOT EXISTS anubhav;
+
+        (3) Make the database active
+            USE anubhav;
+
+        (4) Create a table in the name employ:
+            CREATE TABLE IF NOT EXISTS employ(
+                id          INT(6)              NOT NULL AUTO_INCREMENT,
+                name        VARCHAR(30)         NOT NULL UNIQUE,
+                gender      ENUM('M','F','O')   NOT NULL,
+                dob         DATE,
+                email       VARCHAR(30),
+                PRIMARY KEY(id)
+            );
+
+        (5) View the tables that exists
+            SHOW TABLES;
+
+        (6) View the structure of the table
+            DESCRIBE employ;
+
+
++--------------------------+
+|  Wednesday, 06-03-2024   |
++--------------------------+
+    =   What is LayoutManager?
+        LayoutManager provides automation to add components on the container
+
+        Container                   Intermediate-Container              Component
+        -------------------------------------------------------------------------
+        JFrame                      JPanel                              JLabel
+                                                                        JTextField
+                                                                        JButton
+
+        There are 5 LayoutManagers in java.awt package. The list of these LayoutManagers
+        are as follows:
+            1.  FlowLayout
+                The container that is active with flowlayout can add components like
+                words are added into a wordprocessor (MS-Word).
+                +-------------------------------------------+
+                | xxxxxxxxxx xx xxx xxxxxxxxx xxxxx         |
+                | xxxxxxxxxxxxxx xxx xxxxxxx xxxxxxxx       |
+                | xxxxxx xxxxxxxx xxxxxxxxxxxx xxxxxxxx     |
+                | xxxxxxxxx xxxxxxxx                        |
+                |                                           |
+                |                                           |
+                |                                           |
+                |                                           |
+                |                                           |
+                |                                           |
+                |                                           |
+                +-------------------------------------------+
+            2.  BorderLayout
+                When the container is active with BorderLayout, the container is divided
+                into 5 parts.
+                +-------------------------------------------+
+                |                   NORTH                   |
+                |-----------+-------------------+-----------|
+                |           |                   |           |
+                |    W      |                   |    E      |
+                |    E      |                   |    A      |
+                |    S      |      CENTER       |    S      |
+                |    T      |                   |    T      |
+                |           |                   |           |
+                |           |                   |           |
+                |-----------+-------------------+-----------|
+                |                   SOUTH                   |
+                +-------------------------------------------+
+            3.  GridLayout
+                This LayoutManager divides the container into number of rows and columns.
+                Each cell can hold one component
+                +-----+-----+-----+-----+------+------+-----+
+                |     |     |     |     |      |      |     |
+                +-----+-----+-----+-----+------+------+-----+
+                |     |     |     |     |      |      |     |
+                +-----+-----+-----+-----+------+------+-----+
+                |     |     |     |     |      |      |     |
+                +-----+-----+-----+-----+------+------+-----+
+                |     |     |     |     |      |      |     |
+                +-----+-----+-----+-----+------+------+-----+
+                |     |     |     |     |      |      |     |
+                +-----+-----+-----+-----+------+------+-----+
+                |     |     |     |     |      |      |     |
+                +-----+-----+-----+-----+------+------+-----+
+                |     |     |     |     |      |      |     |
+                +-----+-----+-----+-----+------+------+-----+
+            4.  CardLayout
+            5.  GridBagLayout
+
++-------------------------+
+|  Thursday, 07-03-2024   |
++-------------------------+
+
++-----------------------+
+|  Monday, 11-03-2024   |
++-----------------------+
+    =   JDBC stands for Java DataBase Connectivity
+        Using jdbc, Java programs can connect to databases.
+
+    =   Java JDBC Help:
+        file:///C:/ProgramData/Java/jdk-8u202-docs-all/docs/index.html
+
+    =   There are seven steps in JDBC:
+        1.  Import JDBC API
+            JDBC API comes with JDK toolkit
+        2.  Load and Register Driver
+            Driver has to be downloaded from the vendor website.
+            Oracle, MySQL, DB2, PostgreSQL, etc. are the vendors.
+        3.  Create Connection object
+            Connection is an interface. Interfaces can't be instanciated.
+            We use other classes which implements the Connection interface.
+        4.  Create Statement object
+            Once the Connection object is obtained, there are methods in the
+            connection object to produce Statements.
+        5.  Create ResultSet object
+            ResultSets are objectained from Statements
+        6.  Manipulate ResultSet
+            ResultSets are the virtual data. Functions are provided to manipulate
+            the ResultSet
+        7.  Close the ResultSet, Statement & Connection
+            Finally flush and close
+
++------------------------+
+|  Tuesday, 13-03-2024   |
++------------------------+
+    =   ResultSet
+        When you obtain a ResultSet object from the statement object, you provide
+        a SQL statement in the executeQuery method.
+
+        SELECT id, name, gender, dob, email FROM employ;
+
+        Sample ResultSet which contains a header and the data rows.
+       +----+-------------------+--------+---------+------------+
+       | ID | NAME              | GENDER |   DOB   | EMAIL      |       -> ResultSetMetaData
+   BOF +----+-------------------+--------+---------+------------+       -> beforeFirst (default)
+    1  |    |                   |        |         |            |       -> first
+    2  |    |                   |        |         |            |       -> absolute
+    3  |    |                   |        |         |            |       -> absolute
+    4  |    |                   |        |         |            |       -> absolute
+    5  |    |                   |        |         |            |
+    6  |    |                   |        |         |            |
+    7  |    |                   |        |         |            |
+    8  |    |                   |        |         |            |
+    9  |    |                   |        |         |            |       -> last
+   EOF +----+-------------------+--------+---------+------------+       -> afterLast
+
+    The resultset cursor must be moved to the data area in order to read the data.
+    The METHODS that help to move the cursor are as follows:
+
+        1.  beforeFirst()   moves the cursor above the first position
+        2.  first()         moves the cursor to the first position
+        3.  next()          moves the cursor to relatively next position
+        4.  previous()      moves the cursor to relatively previous position
+        5.  absolute(int)   moves the cursor to the specified row
+        6.  relative(int)   moves the cursor to relative up or down from the current row
+        7.  last()          moves the cursor to the last row
+        8.  afterLast()     moves the cursor to the end-of-file position
+
+    =   ASSIGNMENT
+        Align the column width of the resultset and print in the following pattern:
+        +----+------------------+--------+------------+---------------------------+
+        | id | name             | gender | dob        | email                     |
+        +----+------------------+--------+------------+---------------------------+
+        |  1 | Anubhav Sengupta | M      | 2001-02-01 | anubhavsengupta@gmail.com |
+        |  2 | Milan Das        | M      | 1963-11-25 | milandas63@gmail.com      |
+        |  3 | Mansish Maharana | M      | 1999-04-11 | manasish@gmail.com        |
+        +----+------------------+--------+------------+---------------------------+
+
